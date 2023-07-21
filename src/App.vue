@@ -2,54 +2,25 @@
 import {
     NConfigProvider,
     NLayout,
-    NLayoutHeader,
-    NLayoutFooter,
     NSpace,
-    NMenu,
-    NCard,
     NMessageProvider,
-    NPageHeader,
 } from 'naive-ui'
-
-import {
-    h
-} from 'vue'
-import {
-    RouterLink
-} from 'vue-router'
-
-const menuOptions = [
-    {
-        label: () => h(RouterLink, { to: '/' }, 'Home'),
-        key: 'index',
-    },
-]
-
+import Header from './layout/Header.vue'
+import Footer from './layout/Footer.vue'
+import Body from './layout/Body.vue';
 </script>
 
 <template>
     <NConfigProvider>
-        <NSpace vertical>
-            <NLayout>
-                <NLayoutHeader bordered>
-                    <NPageHeader>
-                        <NMenu mode="horizontal" :options="menuOptions"></NMenu>
-                    </NPageHeader>
-                </NLayoutHeader>
-                <NLayout has-sider>
-                    <NLayout>
-                        <NCard style="min-height: 90vh;">
-                            <NMessageProvider>
-                                <router-view></router-view>
-                            </NMessageProvider>
-                        </NCard>
-                    </NLayout>
+        <NMessageProvider>
+            <NSpace vertical>
+                <NLayout>
+                    <Header />
+                    <Body />
+                    <Footer />
                 </NLayout>
-                <NLayoutFooter bordered>
-                    © 2023 Kasumi Project. Made with ❤️ by Miduoduo community, Inc.
-                </NLayoutFooter>
-            </NLayout>
-        </NSpace>
+            </NSpace>
+        </NMessageProvider>
     </NConfigProvider>
 </template>
 

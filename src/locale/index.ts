@@ -26,9 +26,20 @@ const messages = Object.keys(modules).reduce((messages, key) => {
     })
     return messages
 }, {} as Record<string, { [key: string]: any }>)
-console.log(messages)
+
+// try to get browser language
+const browserLang = navigator.language
+let userLang = ''
+if (browserLang) {
+    for (const lang in messages) {
+        if (browserLang.includes(lang)) {
+            userLang = lang
+        }
+    }
+}
 
 export const i18n = createI18n({
-    locale: 'zh',
+    legacy: false,
+    locale: userLang || 'en',
     messages
 })
