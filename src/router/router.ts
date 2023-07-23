@@ -11,6 +11,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../views/Home.vue')
     },
     {
+        path: '/Kasumi',
+        name: 'Kasumi',
+        component: () => import('../views/Kasumi.vue')
+    },
+    {
         path: '/:catchAll(.*)',
         name: 'NotFound',
         redirect: '/'
