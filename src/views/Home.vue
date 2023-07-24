@@ -57,7 +57,7 @@
                 </NText>
                 <NDivider />
                 <NGrid x-gap="12" :cols="2">
-                    <NGi v-for="production in productions" :key="production.name" class="mb5">
+                    <NGi v-for="production in productions" :key="production.name" class="mb5 clickable" @click="toProductUrl(production.name)">
                         <NGrid :x-gap="12" :cols="3">
                             <NGi span="1" class="mt5 mx-auto">
                                 <NAvatar :src="production.img" round :size="120"></NAvatar>
@@ -157,11 +157,19 @@ import { SparklesOutline, PeopleCircleOutline, ContractOutline, GitMergeOutline,
 import FadeDom from '../component/FadeDom.vue'
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useRouter } from 'vue-router'
+
+const router = useRouter();
 
 const { t: $t } = useI18n()
 
 const toWebSite = (url: string) => {
     window.open(url)
+}
+
+const toProductUrl = (name: string) => {
+    
+    router.push('/' + name)
 }
 
 const productions = ref([{
