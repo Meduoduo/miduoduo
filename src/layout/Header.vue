@@ -19,7 +19,9 @@ import { h } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { getAssetsFile } from '../utils/index'
 import { BatteryChargingOutline } from '@vicons/ionicons5'
+import { useRouter } from 'vue-router'
 const { t: $t } = useI18n()
+const router = useRouter()
 
 const menu: MenuOption[] = [
     {
@@ -34,28 +36,52 @@ const menu: MenuOption[] = [
         label: $t('layout.Header.536931-0'),
         key: 'about',
         onClick: () => {
-            console.log('about')
+            router.push('/')
+            setTimeout(() => {
+                const about = document.getElementById('about')
+                if (about) {
+                    about.scrollIntoView()
+                }
+            }, 100)
         }
     },
     {
         label: $t('layout.Header.524169-1'),
         key: 'product',
         onClick: () => {
-            console.log('product')
+            router.push('/')
+            setTimeout(() => {
+                const product = document.getElementById('products')
+                if (product) {
+                    product.scrollIntoView()
+                }
+            }, 100)
         }
     },
     {
         label: $t('layout.Header.524169-2'),
         key: 'us',
         onClick: () => {
-            console.log('us')
+            router.push('/')
+            setTimeout(() => {
+                const us = document.getElementById('members')
+                if (us) {
+                    us.scrollIntoView()
+                }
+            }, 100)
         }
     },
     {
         label: $t('layout.Header.524169-3'),
         key: 'contact',
         onClick: () => {
-            console.log('contact')
+            router.push('/')
+            setTimeout(() => {
+                const contact = document.getElementById('contact')
+                if (contact) {
+                    contact.scrollIntoView()
+                }
+            }, 100)
         }
     },
     {

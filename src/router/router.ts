@@ -16,6 +16,16 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../views/Kasumi.vue')
     },
     {
+        path: '/Irina',
+        name: 'Irina',
+        component: () => import('../views/Irina.vue')
+    },
+    {
+        path: '/Tokenizer',
+        name: 'Tokenizer',
+        component: () => import('../views/Tokenizer.vue')
+    },
+    {
         path: '/:catchAll(.*)',
         name: 'NotFound',
         redirect: '/'

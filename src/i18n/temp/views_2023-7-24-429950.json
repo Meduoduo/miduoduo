@@ -1,0 +1,32 @@
+{
+	"zh": {
+		"views.Kasumi.429841-0": "Kasumi是一个安全领域的全能助手，也许你需要自动化工具链，也许你需要漏洞的PoC，又或许你需要解放你的双手，将你的工具提供给Kasumi，让她帮你完成工作。",
+		"views.Kasumi.429841-1": "只要是你想得到的，Kasumi都能帮你实现。更重要的是，Kasumi是开源的，你可以随时随地的为她添加新的功能。",
+		"views.Kasumi.429841-2": "关于Kasumi",
+		"views.Kasumi.429841-3": "就像你看到的那样，Kasumi是一个网络安全领域的全能助手，其核心开发理念为解放安全人员的生产力，让安全人员能够更加专注于安全本身，而不是工具的使用，并且，就像在视频里看到的那样",
+		"views.Kasumi.429841-4": "Kasumi已经成功落地了她所需要具备的功能，这就像Miduoduo团队的Slogan：让饼再次落地。",
+		"views.Kasumi.429841-5": "作为一个开源项目，Kasumi的代码托管在Github上，你可以选择一起参与Kasumi的研发，也可以联系我们，分享彼此不一样的想法与创意，Miduoduo团队毫不吝啬分享自己的技术，我们希望能够与更多的人一起，为网络安全领域的发展贡献自己的力量。",
+		"views.Kasumi.429841-6": "开源贡献",
+		"views.Kasumi.429841-7": "Kasumi的源代码托管在Github上，你可以通过提交代码、提交文档、提交建议、提交反馈等方式来参与Kasumi的研发，也可以通过Star、Fork等方式来支持Kasumi的发展",
+		"views.Kasumi.429841-8": "也可以联系我们的核心研发人员，他们会帮助你更好地了解Kasumi",
+		"views.Kasumi.429841-9": "社交媒体",
+		"views.Kasumi.429841-10": "你可以通过社交媒体来关注我们，获取最新的动态，也可以通过社交媒体来与我们交流",
+		"views.Kasumi.429841-11": "QQ群",
+		"views.Kasumi.429841-12": "欢迎Star和Fork我们的项目~"
+	},
+	"en": {
+		"views.Kasumi.429841-0": "",
+		"views.Kasumi.429841-1": "",
+		"views.Kasumi.429841-2": "",
+		"views.Kasumi.429841-3": "",
+		"views.Kasumi.429841-4": "",
+		"views.Kasumi.429841-5": "",
+		"views.Kasumi.429841-6": "",
+		"views.Kasumi.429841-7": "",
+		"views.Kasumi.429841-8": "",
+		"views.Kasumi.429841-9": "",
+		"views.Kasumi.429841-10": "",
+		"views.Kasumi.429841-11": "",
+		"views.Kasumi.429841-12": ""
+	}
+}

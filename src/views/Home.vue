@@ -11,7 +11,7 @@
                             <div>
                                 <div style="font-size: 42px;">Miduoduo.inc</div>
                                 <div>
-                                    <h4>Tech Kawaii Power The World</h4>
+                                    <h4>{{ $t('views.Home.303491-0') }}</h4>
                                 </div>
                             </div>
                         </FadeDom>
@@ -25,7 +25,7 @@
                 <NIcon class="text-22">
                     <BalloonOutline size="32" />
                 </NIcon>
-                <h2 class="inline-block ml5">
+                <h2 class="inline-block ml5" id="about">
                     {{ $t('views.Home.567053-0') }}
                 </h2>
                 <NText class="ml2">
@@ -49,7 +49,7 @@
                 <NIcon class="text-22">
                     <SparklesOutline size="32" />
                 </NIcon>
-                <h2 class="inline-block ml5">
+                <h2 class="inline-block ml5" id="products">
                     {{ $t('views.Home.567053-4') }}
                 </h2>
                 <NText class="ml2">
@@ -81,7 +81,7 @@
                 <NIcon class="text-22">
                     <PeopleCircleOutline size="32" />
                 </NIcon>
-                <h2 class="inline-block ml5">
+                <h2 class="inline-block ml5" id="members">
                     {{ $t('views.Home.567053-6') }}
                 </h2>
                 <NText class="ml2">
@@ -115,7 +115,7 @@
                 <NIcon class="text-22">
                     <ContractOutline size="32" />
                 </NIcon>
-                <h2 class="inline-block ml5">
+                <h2 class="inline-block ml5" id="contact">
                     {{ $t('views.Home.567053-8') }}
                 </h2>
                 <NText class="ml2">
@@ -168,7 +168,6 @@ const toWebSite = (url: string) => {
 }
 
 const toProductUrl = (name: string) => {
-    
     router.push('/' + name)
 }
 

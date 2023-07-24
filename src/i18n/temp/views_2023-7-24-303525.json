@@ -1,0 +1,18 @@
+{
+	"zh": {
+		"views.Tokenizer.303491-0": "Tokenizer是一个用于统计Token使用情况的工具",
+		"views.Tokenizer.303491-1": "关于Tokenizer",
+		"views.Tokenizer.303491-2": "您是否经常遇到这样的场景？项目中需要使用到LLM的API，但是对实际耗费没有概念，不明白一段prompt究竟要消耗多少token，或者说，消耗多少经费？",
+		"views.Tokenizer.303491-3": "Tokenier可以帮助您解决这个问题，它可以帮助您统计一段prompt的token使用情况，以及对应的经费消耗，同时，如果您使用了第三方API如API2D，其有相对于OpenAI 1.5倍的经费消耗，Tokenizer也可以帮助您统计这部分的经费消耗。",
+		"views.Tokenizer.303491-4": "您可以直接访问我们的在线版本：",
+		"views.Tokenizer.303491-5": "或者使用我们的开源代码自行部署："
+	},
+	"en": {
+		"views.Tokenizer.303491-0": "",
+		"views.Tokenizer.303491-1": "",
+		"views.Tokenizer.303491-2": "",
+		"views.Tokenizer.303491-3": "",
+		"views.Tokenizer.303491-4": "",
+		"views.Tokenizer.303491-5": ""
+	}
+}
