@@ -88,7 +88,7 @@ const menu: MenuOption[] = [
         label: $t('layout.Header.524169-4'),
         key: 'business',
         onClick: () => {
-            console.log('business')
+            router.push('/business')
         }
     }
 ]

@@ -26,6 +26,11 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../views/Tokenizer.vue')
     },
     {
+        path: '/business',
+        name: 'Business',
+        component: () => import('../views/Business.vue')
+    },
+    {
         path: '/:catchAll(.*)',
         name: 'NotFound',
         redirect: '/'
