@@ -14,17 +14,17 @@
 		"views.Irina.645625-11": "我们的另一个强项，就是PTE竞赛，我们支持一个最多16层内网32台主机的虚拟环境模拟，同时拥有多个动态的Flag，营造一个更加逼真的内网环境"
 	},
 	"en": {
-		"views.Irina.645625-0": "",
-		"views.Irina.645625-1": "",
-		"views.Irina.645625-2": "",
-		"views.Irina.645625-3": "",
-		"views.Irina.645625-4": "",
-		"views.Irina.645625-5": "",
-		"views.Irina.645625-6": "",
-		"views.Irina.645625-7": "",
-		"views.Irina.645625-8": "",
-		"views.Irina.645625-9": "",
-		"views.Irina.645625-10": "",
-		"views.Irina.645625-11": ""
+		"views.Irina.645625-0": "Irina is a network security target field. It supports learning, training, examination, competition and other modes. You can also create your own internal library on Irina, hold internal competitions, and CTF/AWD/PTE are all Irina's strengths.",
+		"views.Irina.645625-1": "About Irina",
+		"views.Irina.645625-2": "Network security target field construction should meet the needs of network security skills training. Through flexible and complex network environment simulation technology, it can simulate the network environment with multiple subnets in a hierarchical and subdomain manner, and support the configuration and deployment of security protection strategies on the simulated network environment. Meet the needs of target personnel for network security skills training, network security combat scenario exercises, network security simulation scenario design and combat scenario visualization.",
+		"views.Irina.645625-3": "Irina supports a variety of competitions, including CTF/AWD/PTE, etc. At the same time, Irina also supports a variety of modes, including learning, training, examination, competition, etc. It provides a variety of network security skills training scenarios for universities, enterprises, governments and other institutions.",
+		"views.Irina.645625-4": "You can directly choose to look up Irina's white paper:",
+		"views.Irina.645625-5": "Download",
+		"views.Irina.645625-6": "Or you can access Irina's online instance:",
+		"views.Irina.645625-7": "Some simple screenshots",
+		"views.Irina.645625-8": "Rugular CTF competition, we support almost all common types of questions, dynamically scalable target machine cluster, completely self-developed distributed architecture system, which can deal with almost all scenarios.",
+		"views.Irina.645625-9": "Not only CTF competitions, but also do we support AWD competitions. AWD competitions are a more realistic network attack and defense competition. Participating teams need to attack and defend their own GameBox in a real network environment. Finally, they win the competition.",
+		"views.Irina.645625-10": "For teaching, we also provide rich functions, including automatic marking, automatic scoring, automatic ranking and so on, which can greatly reduce the burden of teachers, so that teachers can focus more on teaching itself. At the same time, teachers can also create questions, competitions, question banks, students, classes and so on.",
+		"views.Irina.645625-11": "Our another strength is PTE competition. We support a virtual environment simulation with up to 16 layers of intranet and 32 hosts, as well as multiple dynamic flags to create a more realistic intranet environment."
 	}
 }
