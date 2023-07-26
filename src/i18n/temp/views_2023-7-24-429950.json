@@ -15,18 +15,18 @@
 		"views.Kasumi.429841-12": "欢迎Star和Fork我们的项目~"
 	},
 	"en": {
-		"views.Kasumi.429841-0": "",
-		"views.Kasumi.429841-1": "",
-		"views.Kasumi.429841-2": "",
-		"views.Kasumi.429841-3": "",
-		"views.Kasumi.429841-4": "",
-		"views.Kasumi.429841-5": "",
-		"views.Kasumi.429841-6": "",
-		"views.Kasumi.429841-7": "",
-		"views.Kasumi.429841-8": "",
-		"views.Kasumi.429841-9": "",
-		"views.Kasumi.429841-10": "",
-		"views.Kasumi.429841-11": "",
-		"views.Kasumi.429841-12": ""
+		"views.Kasumi.429841-0": "Kasumi is an AI assistant for security field. Maybe you need an automated toolchain, maybe you need a PoC of vulnerability, or maybe you need to free your hands and provide your tools to Kasumi to help you complete your work.",
+		"views.Kasumi.429841-1": "Whaterver you want, Kasumi can help you achieve it. More importantly, Kasumi is open source, and you can add new features to her anytime, anywhere.",
+		"views.Kasumi.429841-2": "About Kasumi",
+		"views.Kasumi.429841-3": "As you can see, Kasumi is an AI assistant for security field. The core development concept is to liberate the productivity of security personnel, so that security personnel can focus more on security itself, not the use of tools, and, as you can see in the video",
+		"views.Kasumi.429841-4": "Kasumi has successfully landed the functions she needs. This is like the Slogan of Miduoduo team: Make pie in the sky land again.",
+		"views.Kasumi.429841-5": "As a open source project, Kasumi's code is hosted on Github. You can choose to participate in the development of Kasumi, or you can contact us to share different ideas and ideas with each other. Miduoduo team is not stingy to share their own technology. We hope to be able to work with more people to contribute to the development of network security",
+		"views.Kasumi.429841-6": "Open source contribution",
+		"views.Kasumi.429841-7": "Kasumi's source code is hosted on Github. You can participate in the development of Kasumi by submitting code, submitting documents, submitting suggestions, submitting feedback, etc., or you can support the development of Kasumi by Star, Fork, etc. ",
+		"views.Kasumi.429841-8": "Or you can contact our core developers, they will help you better understand Kasumi",
+		"views.Kasumi.429841-9": "Social media",
+		"views.Kasumi.429841-10": "You can follow us through social media to get the latest news, or you can communicate with us through social media",
+		"views.Kasumi.429841-11": "QQ group",
+		"views.Kasumi.429841-12": "Welcome to Star and Fork our project~"
 	}
 }

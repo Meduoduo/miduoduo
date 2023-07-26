@@ -127,7 +127,7 @@
                         <NIcon>
                             <MailOpenOutline size="22" />
                         </NIcon>
-                        Email: <a href="mailto:admin@srmxy.cn">Yeuoly</a>
+                        Email: <a href="mailto:boss@miduoduo.org">Miduoduo</a>
                     </NGi>
                     <NGi>
                         <NIcon>
